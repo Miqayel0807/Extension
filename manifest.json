@@ -1,0 +1,14 @@
+{
+"name" : "Welcome",
+"author" : "Miqayel Grigoryan",
+"version" : "1.0",
+"description" : "Welcome",
+"content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["contentScript.js"],
+    "css": ["contentScript.css"],
+    "run_at": "document_end"
+  }]  ,
+  "manifest_version" : 3
+
+}
